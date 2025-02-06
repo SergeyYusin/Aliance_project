@@ -1,0 +1,16 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  border: 2px solid blue;
+}
+
+.child {
+  border: 2px solid black;
+}
+
+.block {
+  width: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+}

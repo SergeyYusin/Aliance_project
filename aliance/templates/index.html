@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<form action="{% url 'search' %}" method="GET">
+    <label>Имя</label>
+    <input name="name">
+    <label>Фамилия</label>
+    <input name="last_name">
+    <button type="submit">Найти</button>
+</form>
+
+   {% for person in persons %}
+    <p><h4>
+        {{ person.name }}
+        {{ person.last_name }} -
+        {{ person.product }} :
+        {{ person.quantity }}шт.
+        дата: {{ person.date }}</h4></p>
+    {% endfor %}
+
+</body>
+</html>
