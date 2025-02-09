@@ -16,12 +16,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from aliance.views import main, page_not_found, search
+from aliance.views import main, page_not_found, search, app, search_app
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls, name='ap'),
     path('', main, name="main"),
     path('search/', search, name='search'),
+    path('app/', app, name='app'),
+    path('search_app/', search_app, name='search_app')
     # path('name/<name>/last_name/<last_name>/', search, name=search)
 ]
 

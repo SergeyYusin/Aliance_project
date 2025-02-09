@@ -7,6 +7,11 @@
 <body>
 
 
+
+
+<p><form action="{% url 'app' %}" method="">
+    <button type="submit">app</button>
+</form></p>
 <form action="{% url 'search' %}" method="GET">
     <label>Имя</label>
     <input name="name">
@@ -25,4 +30,6 @@
     {% endfor %}
 
 </body>
+
+</form>
 </html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="{% url 'search_app' %}" method="GET">
+    <label>Имя</label>
+    <input name="district">
+    <button type="submit">Найти</button>
+</form>
+    {% for ap in app %}
+        <p>{{ ap.district }}
+        {{ ap.address }}
+        {{ ap.flat }}
+        {{ ap.date }}
+        {{ ap.comment }}
+        {{ ap.price }}
+        {{ ap.uk }}
+        {{ ap.name }}<p/>
+    {% endfor %}
+
+{% for app in list_app %}
+    {{ app }}
+    {% endfor %}
+</body>
+</html>
