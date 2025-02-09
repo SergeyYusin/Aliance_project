@@ -27,9 +27,9 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'sq$is@r_q+ldnja5keg7v-%&bo+a6x
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
-DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
+DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['cruspe.pythonanywhere.com']
 
 
 # Application definition
@@ -79,16 +79,12 @@ WSGI_APPLICATION = 'main.wsgi.application'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'demo',
-        'USER': 'postgres',
-        'PASSWORD': 'alukard',
-        'HOST': 'localhost',
-        'PORT': 5432,
-    }
-}
-
+      'default': {
+          'ENGINE': 'django.db.backends.sqlite3',
+          'NAME': BASE_DIR / 'db.sqlite3',
+      }
+ }
+  
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
@@ -125,7 +121,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [BASE_DIR / "static"]
+MEDIA_URL = '/media/'
+STATIC_ROOT = '/home/Cruspe/static'
+MEDIA_ROOT = '/home/Cruspe/media'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
