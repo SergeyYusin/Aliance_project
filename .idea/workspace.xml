@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddb732e3-566d-45cf-97e4-f2de0539f92c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/aliance/migrations/0004_applications_alter_person_options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aliance/templates/app.html" afterDir="false" />
+    <list default="true" id="ddb732e3-566d-45cf-97e4-f2de0539f92c" name="Changes" comment="&#10;Applications">
+      <change afterPath="$PROJECT_DIR$/aliance/templates/page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aliance/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/aliance/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aliance/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/aliance/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aliance/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/aliance/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aliance/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/aliance/templates/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aliance/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/aliance/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,6 +90,30 @@
       <option name="presentableId" value="Default" />
       <updated>1738840625808</updated>
     </task>
+    <task id="LOCAL-00001" summary="&#10;Applications">
+      <option name="closed" value="true" />
+      <created>1739129504151</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739129504151</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&#10;Applications" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Applications" />
   </component>
 </project>
